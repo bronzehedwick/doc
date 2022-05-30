@@ -867,6 +867,9 @@ nvim_create_user_command({name}, {command}, {*opts})
                                  specified |<A HREF="map.html#&lt;reg&gt;">&lt;reg&gt;</A>|
                                • mods: (string) Command modifiers, if any
                                  |<A HREF="map.html#&lt;mods&gt;">&lt;mods&gt;</A>|
+                               • smods: (table) Command modifiers in a
+                                 structured format. Has the same structure <A HREF="motion.html#as">as</A>
+                                 the &quot;mods&quot; key of |<A HREF="#nvim_parse_cmd()">nvim_parse_cmd()</A>|.
                     {opts}     Optional command attributes. See
                                |<A HREF="map.html#command-attributes">command-attributes</A>| for more details. To use
                                <A HREF="options.html#boolean">boolean</A> attributes (such <A HREF="motion.html#as">as</A> |<A HREF="map.html#:command-bang">:command-bang</A>| or
@@ -4001,7 +4004,7 @@ nvim_ui_try_resize_grid({grid}, {width}, {height})
 
     <footer>
       <div class="container">
-        Generated Sun May 29 05:36:19 UTC 2022 from <a href="https://github.com/neovim/neovim/commit/f31a10204c573188e8fb76a10d22f9d4bae907f1"><code>f31a102</code></a>.
+        Generated Mon May 30 05:42:41 UTC 2022 from <a href="https://github.com/neovim/neovim/commit/e9803e1de6497ee21f77f45cf2670c2fe4e8ab22"><code>e9803e1</code></a>.
       </div>
     </footer>
   </body>
