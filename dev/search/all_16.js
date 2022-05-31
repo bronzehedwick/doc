@@ -217,7 +217,7 @@ var searchData=
   ['vim_5fsnprintf_11463',['vim_snprintf',['../hardcopy_8c.html#a4319950a0974fcc0fb2d0e2b778b088c',1,'vim_snprintf(prt_line_buffer, sizeof(prt_line_buffer), &quot; %s\n&quot;, string):&#160;hardcopy.c'],['../strings_8c.html#ac512c2f2715d17e83068f8a6eb4e4571',1,'vim_snprintf(char *str, size_t str_m, const char *fmt,...) FUNC_ATTR_PRINTF(3:&#160;strings.c']]],
   ['vim_5fsnprintf_5fadd_11464',['vim_snprintf_add',['../strings_8c.html#a0795ccc79c0ec334dfacd9b890f94b72',1,'strings.c']]],
   ['vim_5fstate_11465',['vim_state',['../structvim__state.html',1,'']]],
-  ['vim_5fstr2nr_11466',['VIM_STR2NR',['../expressions_8c.html#a7c849082cfbb51f7e51283f86a0067a9',1,'VIM_STR2NR():&#160;expressions.c'],['../charset_8c.html#a5c7c7b1a036975aff6fbdc9ab2fcde18',1,'vim_str2nr(const char_u *const start, int *const prep, int *const len, const int what, varnumber_T *const nptr, uvarnumber_T *const unptr, const int maxlen, const bool strict) FUNC_ATTR_NONNULL_ARG(1):&#160;charset.c']]],
+  ['vim_5fstr2nr_11466',['vim_str2nr',['../charset_8c.html#a5c7c7b1a036975aff6fbdc9ab2fcde18',1,'vim_str2nr(const char_u *const start, int *const prep, int *const len, const int what, varnumber_T *const nptr, uvarnumber_T *const unptr, const int maxlen, const bool strict) FUNC_ATTR_NONNULL_ARG(1):&#160;charset.c'],['../expressions_8c.html#a7c849082cfbb51f7e51283f86a0067a9',1,'VIM_STR2NR():&#160;expressions.c']]],
   ['vim_5fstrchr_11467',['vim_strchr',['../strings_8c.html#ac296912ddcaf1fc6e96aceae4aee4c27',1,'strings.c']]],
   ['vim_5fstricmp_11468',['vim_stricmp',['../strings_8c.html#a61d999a2eb8b489b24f986da938076f9',1,'strings.c']]],
   ['vim_5fstrnicmp_11469',['vim_strnicmp',['../strings_8c.html#a0714af62b8bdf862219662cc5dff1724',1,'strings.c']]],

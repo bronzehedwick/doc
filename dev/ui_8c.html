@@ -286,10 +286,10 @@ Functions</h2></td></tr>
 <div class="line">      uilog_seen++; \</div>
 <div class="line">    } <span class="keywordflow">else</span> { \</div>
 <div class="line">      if (uilog_seen &gt; 0) { \</div>
-<div class="line">        logmsg(<a class="code" href="log_8h.html#a874795f9a502bd10b855fd67a2e34083">DEBUG_LOG_LEVEL</a>, <span class="stringliteral">&quot;UI: &quot;</span>, <a class="code" href="eval_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a>, -1, <span class="keyword">true</span>, \</div>
+<div class="line">        logmsg(<a class="code" href="log_8h.html#ad3f8db5cb29985552f192401968bf64a">LOGLVL_DBG</a>, <span class="stringliteral">&quot;UI: &quot;</span>, <a class="code" href="eval_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a>, -1, <span class="keyword">true</span>, \</div>
 <div class="line">               <span class="stringliteral">&quot;%s (+%zu times...)&quot;</span>, uilog_last_event, uilog_seen); \</div>
 <div class="line">      } \</div>
-<div class="line">      logmsg(<a class="code" href="log_8h.html#a874795f9a502bd10b855fd67a2e34083">DEBUG_LOG_LEVEL</a>, <span class="stringliteral">&quot;UI: &quot;</span>, <a class="code" href="eval_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a>, -1, <span class="keyword">true</span>, <a class="code" href="macros_8h.html#a18d295a837ac71add5578860b55e5502">STR</a>(funname)); \</div>
+<div class="line">      logmsg(<a class="code" href="log_8h.html#ad3f8db5cb29985552f192401968bf64a">LOGLVL_DBG</a>, <span class="stringliteral">&quot;UI: &quot;</span>, <a class="code" href="eval_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a>, -1, <span class="keyword">true</span>, <a class="code" href="macros_8h.html#a18d295a837ac71add5578860b55e5502">STR</a>(funname)); \</div>
 <div class="line">      uilog_seen = 0; \</div>
 <div class="line">      xstrlcpy(uilog_last_event, <a class="code" href="macros_8h.html#a18d295a837ac71add5578860b55e5502">STR</a>(funname), <span class="keyword">sizeof</span>(uilog_last_event)); \</div>
 <div class="line">    } \</div>
@@ -1008,16 +1008,16 @@ Functions</h2></td></tr>
 </div>
 </div><!-- contents -->
 <div class="ttc" id="aedit_8c_html_a45c19b8ab99513d686d978d1f825066e"><div class="ttname"><a href="edit_8c.html#a45c19b8ab99513d686d978d1f825066e">i</a></div><div class="ttdeci">static void int i</div><div class="ttdef"><b>Definition:</b> edit.c:2997</div></div>
+<div class="ttc" id="alog_8h_html_ad3f8db5cb29985552f192401968bf64a"><div class="ttname"><a href="log_8h.html#ad3f8db5cb29985552f192401968bf64a">LOGLVL_DBG</a></div><div class="ttdeci">#define LOGLVL_DBG</div><div class="ttdef"><b>Definition:</b> log.h:20</div></div>
 <div class="ttc" id="amemory_8c_html_a949bf670a647fd06a9aebf065a68fa52"><div class="ttname"><a href="memory_8c.html#a949bf670a647fd06a9aebf065a68fa52">strequal</a></div><div class="ttdeci">bool strequal(const char *a, const char *b) FUNC_ATTR_PURE FUNC_ATTR_WARN_UNUSED_RESULT</div><div class="ttdoc">Returns true if strings a and b are equal. Arguments may be NULL.</div><div class="ttdef"><b>Definition:</b> memory.c:486</div></div>
 <div class="ttc" id="aui_8c_html_a6f22ec39f1641597bb5eb36416feddec"><div class="ttname"><a href="ui_8c.html#a6f22ec39f1641597bb5eb36416feddec">entered_free_all_mem</a></div><div class="ttdeci">#define entered_free_all_mem</div><div class="ttdef"><b>Definition:</b> ui.c:74</div></div>
-<div class="ttc" id="alog_8h_html_a874795f9a502bd10b855fd67a2e34083"><div class="ttname"><a href="log_8h.html#a874795f9a502bd10b855fd67a2e34083">DEBUG_LOG_LEVEL</a></div><div class="ttdeci">#define DEBUG_LOG_LEVEL</div><div class="ttdef"><b>Definition:</b> log.h:20</div></div>
 <div class="ttc" id="aeval_8c_html_a1a05ede2ad100bf5de5dfa7ccdfa4397"><div class="ttname"><a href="eval_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></div><div class="ttdeci">return NULL</div><div class="ttdef"><b>Definition:</b> eval.c:9962</div></div>
 <div class="ttc" id="amacros_8h_html_a18d295a837ac71add5578860b55e5502"><div class="ttname"><a href="macros_8h.html#a18d295a837ac71add5578860b55e5502">STR</a></div><div class="ttdeci">#define STR(x)</div><div class="ttdef"><b>Definition:</b> macros.h:140</div></div>
 <!-- HTML footer for doxygen 1.8.6-->
 <!-- start footer part -->
 <footer>
   <div class="container">
-    Generated on Mon May 30 2022 05:42:46 for Neovim by
+    Generated on Tue May 31 2022 05:40:08 for Neovim by
     <a href="http://www.doxygen.org/index.html">Doxygen</a>
     1.8.17
   </div>

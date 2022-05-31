@@ -1,17 +1,17 @@
 var searchData=
 [
-  ['sb_5fclear_5ft_20172',['sb_clear_T',['../message_8c.html#aa7a6773da7cc0f58813637e947df6075',1,'message.c']]],
-  ['scopetype_20173',['ScopeType',['../typval_8h.html#a3169a8b21215d4fbbf99939d8f51c755',1,'typval.h']]],
-  ['shadaentrytype_20174',['ShadaEntryType',['../shada_8c.html#a6acea8918513fee97272903ababd59c1',1,'shada.c']]],
-  ['shadareadfileflags_20175',['ShaDaReadFileFlags',['../shada_8h.html#ae4e1150a734638173c9d1b2c38da2d0b',1,'shada.h']]],
-  ['shadareadresult_20176',['ShaDaReadResult',['../shada_8c.html#ae38584c814e6e87d65480d5dfdf05471',1,'shada.c']]],
-  ['shadawriteresult_20177',['ShaDaWriteResult',['../shada_8c.html#a81f0f7fe7629fb47ae0507f0b15cabf8',1,'shada.c']]],
-  ['shellopts_20178',['ShellOpts',['../shell_8h.html#a342adb1a4b3f14a94dccedb3f26d9f3a',1,'shell.h']]],
-  ['signtype_20179',['SignType',['../sign__defs_8h.html#aaa42617f56c675fcc5c2c99b8c3e3b6a',1,'sign_defs.h']]],
-  ['somematchtype_20180',['SomeMatchType',['../funcs_8c.html#aabd2e098faaf307a834196c274103a19',1,'funcs.c']]],
-  ['specialvarvalue_20181',['SpecialVarValue',['../typval_8h.html#aa75f7bceb94edcc3f475208d4f8fe977',1,'typval.h']]],
-  ['spelladdtype_20182',['SpellAddType',['../spell__defs_8h.html#ac11a387ad355fbb0492494afbc380a46',1,'spell_defs.h']]],
-  ['srniflags_20183',['SRNIFlags',['../shada_8c.html#abad222a39b61bd4918d773cba03465ca',1,'shada.c']]],
-  ['state_5ft_20184',['state_T',['../spell__defs_8h.html#ab197c59146bd90cb5c2c6258116fde91',1,'spell_defs.h']]],
-  ['subignoretype_20185',['SubIgnoreType',['../ex__cmds_8c.html#a3408c9306d835a115bd4a8b27258c5cf',1,'ex_cmds.c']]]
+  ['sb_5fclear_5ft_20171',['sb_clear_T',['../message_8c.html#aa7a6773da7cc0f58813637e947df6075',1,'message.c']]],
+  ['scopetype_20172',['ScopeType',['../typval_8h.html#a3169a8b21215d4fbbf99939d8f51c755',1,'typval.h']]],
+  ['shadaentrytype_20173',['ShadaEntryType',['../shada_8c.html#a6acea8918513fee97272903ababd59c1',1,'shada.c']]],
+  ['shadareadfileflags_20174',['ShaDaReadFileFlags',['../shada_8h.html#ae4e1150a734638173c9d1b2c38da2d0b',1,'shada.h']]],
+  ['shadareadresult_20175',['ShaDaReadResult',['../shada_8c.html#ae38584c814e6e87d65480d5dfdf05471',1,'shada.c']]],
+  ['shadawriteresult_20176',['ShaDaWriteResult',['../shada_8c.html#a81f0f7fe7629fb47ae0507f0b15cabf8',1,'shada.c']]],
+  ['shellopts_20177',['ShellOpts',['../shell_8h.html#a342adb1a4b3f14a94dccedb3f26d9f3a',1,'shell.h']]],
+  ['signtype_20178',['SignType',['../sign__defs_8h.html#aaa42617f56c675fcc5c2c99b8c3e3b6a',1,'sign_defs.h']]],
+  ['somematchtype_20179',['SomeMatchType',['../funcs_8c.html#aabd2e098faaf307a834196c274103a19',1,'funcs.c']]],
+  ['specialvarvalue_20180',['SpecialVarValue',['../typval_8h.html#aa75f7bceb94edcc3f475208d4f8fe977',1,'typval.h']]],
+  ['spelladdtype_20181',['SpellAddType',['../spell__defs_8h.html#ac11a387ad355fbb0492494afbc380a46',1,'spell_defs.h']]],
+  ['srniflags_20182',['SRNIFlags',['../shada_8c.html#abad222a39b61bd4918d773cba03465ca',1,'shada.c']]],
+  ['state_5ft_20183',['state_T',['../spell__defs_8h.html#ab197c59146bd90cb5c2c6258116fde91',1,'spell_defs.h']]],
+  ['subignoretype_20184',['SubIgnoreType',['../ex__cmds_8c.html#a3408c9306d835a115bd4a8b27258c5cf',1,'ex_cmds.c']]]
 ];

@@ -10,7 +10,6 @@ var searchData=
   ['ui_20054',['UI',['../ui_8h.html#acf90a8f36514b378ce6f4cdeecfd372a',1,'ui.h']]],
   ['ui_5fmain_5ffn_20055',['ui_main_fn',['../ui__bridge_8h.html#a0ac7707910e1467289c504dea5f1f922',1,'ui_bridge.h']]],
   ['uibridgedata_20056',['UIBridgeData',['../ui__bridge_8h.html#a8cc91910cff5384cbf3938ba2a51f571',1,'ui_bridge.h']]],
-  ['uiclienthandler_20057',['UIClientHandler',['../ui__client_8h.html#a33e44cc832aaff51e71f23dac83e2191',1,'ui_client.h']]],
-  ['user_5fexpand_5ffunc_5ft_20058',['user_expand_func_T',['../ex__getln_8c.html#ac591b2e61cfc0bb6329e9681556d7ef1',1,'ex_getln.c']]],
-  ['uvarnumber_5ft_20059',['uvarnumber_T',['../typval_8h.html#a03436e179e71c278153ba9eed694d0aa',1,'typval.h']]]
+  ['user_5fexpand_5ffunc_5ft_20057',['user_expand_func_T',['../ex__getln_8c.html#ac591b2e61cfc0bb6329e9681556d7ef1',1,'ex_getln.c']]],
+  ['uvarnumber_5ft_20058',['uvarnumber_T',['../typval_8h.html#a03436e179e71c278153ba9eed694d0aa',1,'typval.h']]]
 ];

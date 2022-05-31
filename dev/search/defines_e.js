@@ -1,7 +1,7 @@
 var searchData=
 [
   ['n_5f_23741',['N_',['../gettext_8h.html#aba49c317732ed2f938129061ee53fe32',1,'gettext.h']]],
-  ['n_5fvirguilla_23742',['N_virguilla',['../regexp__nfa_8c.html#a3558cd041ec3685ce0fb34b47067809d',1,'N_virguilla():&#160;regexp_nfa.c'],['../regexp__nfa_8c.html#a95d1763772b457f3e2067a56737b432c',1,'n_virguilla():&#160;regexp_nfa.c']]],
+  ['n_5fvirguilla_23742',['n_virguilla',['../regexp__nfa_8c.html#a95d1763772b457f3e2067a56737b432c',1,'n_virguilla():&#160;regexp_nfa.c'],['../regexp__nfa_8c.html#a3558cd041ec3685ce0fb34b47067809d',1,'N_virguilla():&#160;regexp_nfa.c']]],
   ['nalpha_23743',['NALPHA',['../regexp__bt_8c.html#acc0c49f53c687249293224ae8de419ed',1,'regexp_bt.c']]],
   ['name_5fmax_23744',['NAME_MAX',['../win__defs_8h.html#ac64541bdd81c961304b9babef1402640',1,'win_defs.h']]],
   ['nclose_23745',['NCLOSE',['../regexp__bt_8c.html#ae09f2a4a3528cc47727191e4b5fcb751',1,'regexp_bt.c']]],

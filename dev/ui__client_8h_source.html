@@ -75,26 +75,30 @@ $(function() {
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="api_2private_2defs_8h.html">nvim/api/private/defs.h</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="ui__client_8h.html#a33e44cc832aaff51e71f23dac83e2191">    6</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="pty__conpty__win_8c.html#a690727517acf82fb8c93ad801e3ca4e3">void</a> (*<a class="code" href="ui__client_8h.html#a33e44cc832aaff51e71f23dac83e2191">UIClientHandler</a>)(<a class="code" href="structArray.html">Array</a> <a class="code" href="log_8c.html#aaccd55b82ca2bc0f01757348bc7a2afa">args</a>);</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifdef INCLUDE_GENERATED_DECLARATIONS</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"># include &quot;ui_client.h.generated.h&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="structUIClientHandler.html">    6</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="structUIClientHandler.html#af9daa3adb8d14862b67456494e88ca20">    7</a></span>&#160;  <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structUIClientHandler.html#af9daa3adb8d14862b67456494e88ca20">name</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="structUIClientHandler.html#a66d4302384980c5c641942ecf8e633a7">    8</a></span>&#160;  <a class="code" href="pty__conpty__win_8c.html#a690727517acf82fb8c93ad801e3ca4e3">void</a> (*fn)(<a class="code" href="structArray.html">Array</a> <a class="code" href="log_8c.html#aaccd55b82ca2bc0f01757348bc7a2afa">args</a>);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;} <a class="code" href="structUIClientHandler.html">UIClientHandler</a>;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor"># include &quot;ui_events_client.h.generated.h&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifdef INCLUDE_GENERATED_DECLARATIONS</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"># include &quot;ui_client.h.generated.h&quot;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif  // NVIM_UI_CLIENT_H</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"># include &quot;ui_events_client.h.generated.h&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif  // NVIM_UI_CLIENT_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="astructUIClientHandler_html"><div class="ttname"><a href="structUIClientHandler.html">UIClientHandler</a></div><div class="ttdef"><b>Definition:</b> ui_client.h:6</div></div>
 <div class="ttc" id="astructArray_html"><div class="ttname"><a href="structArray.html">Array</a></div><div class="ttdef"><b>Definition:</b> defs.h:88</div></div>
 <div class="ttc" id="apty__conpty__win_8c_html_a690727517acf82fb8c93ad801e3ca4e3"><div class="ttname"><a href="pty__conpty__win_8c.html#a690727517acf82fb8c93ad801e3ca4e3">void</a></div><div class="ttdeci">void(WINAPI *pClosePseudoConsole)(HPCON)</div></div>
+<div class="ttc" id="astructUIClientHandler_html_af9daa3adb8d14862b67456494e88ca20"><div class="ttname"><a href="structUIClientHandler.html#af9daa3adb8d14862b67456494e88ca20">UIClientHandler::name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> ui_client.h:7</div></div>
 <div class="ttc" id="aapi_2private_2defs_8h_html"><div class="ttname"><a href="api_2private_2defs_8h.html">defs.h</a></div></div>
-<div class="ttc" id="aui__client_8h_html_a33e44cc832aaff51e71f23dac83e2191"><div class="ttname"><a href="ui__client_8h.html#a33e44cc832aaff51e71f23dac83e2191">UIClientHandler</a></div><div class="ttdeci">void(* UIClientHandler)(Array args)</div><div class="ttdef"><b>Definition:</b> ui_client.h:6</div></div>
-<div class="ttc" id="alog_8c_html_aaccd55b82ca2bc0f01757348bc7a2afa"><div class="ttname"><a href="log_8c.html#aaccd55b82ca2bc0f01757348bc7a2afa">args</a></div><div class="ttdeci">va_list args</div><div class="ttdef"><b>Definition:</b> log.c:149</div></div>
+<div class="ttc" id="alog_8c_html_aaccd55b82ca2bc0f01757348bc7a2afa"><div class="ttname"><a href="log_8c.html#aaccd55b82ca2bc0f01757348bc7a2afa">args</a></div><div class="ttdeci">va_list args</div><div class="ttdef"><b>Definition:</b> log.c:182</div></div>
 <!-- HTML footer for doxygen 1.8.6-->
 <!-- start footer part -->
 <footer>
   <div class="container">
-    Generated on Mon May 30 2022 05:42:46 for Neovim by
+    Generated on Tue May 31 2022 05:40:08 for Neovim by
     <a href="http://www.doxygen.org/index.html">Doxygen</a>
     1.8.17
   </div>

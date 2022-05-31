@@ -28,7 +28,7 @@ var searchData=
   ['recs_18674',['recs',['../structs__xdfile.html#aa51c731873a303ab331039ebafdcc85b',1,'s_xdfile']]],
   ['recurse_18675',['recurse',['../eval_8c.html#a09ba845e287ff58abb342f7cf310a388',1,'eval.c']]],
   ['recursioncount_18676',['recursionCount',['../search_8c.html#aaac299e613ce047b734c732dac9c9ab1',1,'search.c']]],
-  ['recursive_18677',['recursive',['../structloop.html#af78d6073fc1eb0709f277ebb3bf5253f',1,'loop']]],
+  ['recursive_18677',['recursive',['../structloop.html#af78d6073fc1eb0709f277ebb3bf5253f',1,'loop::recursive()'],['../log_8c.html#a9d620918ee27181ded740ca71d15ae7b',1,'recursive():&#160;log.c']]],
   ['redraw_18678',['redraw',['../structnvim__stats__s.html#a48542fef81414a9415d8530dc8e4d4c0',1,'nvim_stats_s::redraw()'],['../globals_8h.html#ac919d9a188e5d0b99971b426c9f3d7ea',1,'redraw():&#160;globals.h']]],
   ['redraw_5fbuf_18679',['redraw_buf',['../structDecorProvider.html#a97758efd78bd3b0e4c285ff552d1e7d3',1,'DecorProvider']]],
   ['redraw_5fend_18680',['redraw_end',['../structDecorProvider.html#a078bc9ad5af6c9dfbfe886722c68f24e',1,'DecorProvider']]],
