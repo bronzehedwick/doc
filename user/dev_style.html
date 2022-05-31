@@ -880,11 +880,6 @@ example, `&quot;\uFEFF&quot;`, is the <A HREF="mbyte.html#Unicode">Unicode</A> z
 would be invisible if included in the source <A HREF="motion.html#as">as</A> straight <A HREF="mbyte.html#UTF-8">UTF-8</A>.
 
 
-<B><FONT color="#54A23D">Spaces vs. Tabs </FONT></B>
-
-Use only spaces, and indent 2 spaces at a time. Do not use tabs in your code.
-
-
 <B><FONT color="#54A23D">Function Declarations and Definitions </FONT></B>
 
 Return type on the same line <A HREF="motion.html#as">as</A> function name, parameters on the same line if
@@ -994,7 +989,7 @@ no name, assume a zero-length name.
 
 <B><FONT color="#54A23D">Conditionals </FONT></B>
 
-Don't use spaces inside parentheses. Always use curly braces.
+Don't use spaces inside parentheses.
 
 <B>    if (condition) {  // no spaces inside parentheses</B>
 <B>      ...  // 2 space indent.</B>
@@ -1014,8 +1009,8 @@ warn you if any values are not handled). If the default <A HREF="change.html#cas
 execute, simply `assert`:
 
 <B>    switch (var) {</B>
-<B>      case 0:    // 2 space indent</B>
-<B>        ...      // 4 space indent</B>
+<B>      case 0:</B>
+<B>        ...</B>
 <B>        break;</B>
 <B>      case 1:</B>
 <B>        ...</B>
@@ -1041,15 +1036,6 @@ Note that:
 
     - There are no spaces around the period or arrow when accessing a member.
     - Pointer operators have no space after the &#42; or <A HREF="change.html#&amp;">&amp;</A>.
-
-When declaring a pointer variable or argument, place the asterisk adjacent to
-the variable name:
-
-<B>    char *c;</B>
-
-<B>    char * c;  // BAD: spaces on both sides of *</B>
-<B>    char* c;   // BAD</B>
-
 
 <B><FONT color="#54A23D">Boolean Expressions </FONT></B>
 
@@ -1082,15 +1068,10 @@ expr;`.
 
 <B><FONT color="#54A23D">Horizontal Whitespace </FONT></B>
 
-Use of horizontal <A HREF="pattern.html#whitespace">whitespace</A> depends on location. Never put trailing
-<A HREF="pattern.html#whitespace">whitespace</A> at the end of a line.
+Use of horizontal <A HREF="pattern.html#whitespace">whitespace</A> depends on location.
 
 <B><FONT color="#54A23D">    General </FONT></B>
 
-<B>        if (x) {          // Open braces should always have a space before them.</B>
-<B>          ...</B>
-<B>        }</B>
-<B>        int i = 0;        // Semicolons usually have no space before them.</B>
 <B>        int x[] = { 0 };  // Spaces inside braces for braced-init-list.</B>
  
 
@@ -1110,21 +1091,6 @@ Use of horizontal <A HREF="pattern.html#whitespace">whitespace</A> depends on lo
 <B>        };</B>
  
 
-<B><FONT color="#54A23D">    Loops and Conditionals </FONT></B>
-
-<B>        if (b) {              // Space after the keyword in condition.</B>
-<B>        } else {              // Spaces around else.</B>
-<B>        }</B>
-<B>        while (test) {}       // There is usually no space inside parentheses.</B>
-<B>        for (; i &lt; 5; i++) {  // For loops always have a space after the</B>
-<B>          ...                 // semicolon and no a space before the</B>
-<B>          ...                 // semicolon.</B>
-<B>        }</B>
-<B>        switch (i) {</B>
-<B>          case 1:             // No space before colon in a switch case.</B>
-<B>            ...</B>
-<B>          case 2: break;      // Space after a colon if there's code after it.</B>
- 
 
 <B><FONT color="#54A23D">    Operators </FONT></B>
 
@@ -1134,8 +1100,6 @@ Use of horizontal <A HREF="pattern.html#whitespace">whitespace</A> depends on lo
 <B>        x++;              // arguments.</B>
 <B>        if (x &amp;&amp; !y)</B>
 <B>          ...</B>
-<B>        v = w*x + y/z;    // Use spaces to indicate operator precedence.</B>
-<B>        v = w * (x + z);  // Parentheses should have no spaces inside them.</B>
 <B>        i = (int)d;       // No spaces after a cast operator.</B>
  
 
@@ -1163,7 +1127,7 @@ to your pull request explaining your reasoning.
 
     <footer>
       <div class="container">
-        Generated Mon May 30 05:42:42 UTC 2022 from <a href="https://github.com/neovim/neovim/commit/e9803e1de6497ee21f77f45cf2670c2fe4e8ab22"><code>e9803e1</code></a>.
+        Generated Tue May 31 05:40:04 UTC 2022 from <a href="https://github.com/neovim/neovim/commit/b7d70de345dbdc52bc2690246b6a329a3b6bda09"><code>b7d70de</code></a>.
       </div>
     </footer>
   </body>
